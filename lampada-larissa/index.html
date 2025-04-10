@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Lâmpada Interativa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Lâmpada Interativa</h1>
+
+  <div class="lamp-container">
+    <img id="lamp" src="lampadadeslig.jpg" alt="Lâmpada" 
+         onmouseover="ligar()" 
+         onmouseout="desligar()" 
+         onclick="quebrar()" />
+  </div>
+
+  <div class="buttons">
+    <button onclick="ligar()">Ligar</button>
+    <button onclick="desligar()">Desligar</button>
+    <button onclick="quebrar()">Quebrar</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
