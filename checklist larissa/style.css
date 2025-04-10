@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 250px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  li.checked {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .close {
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
